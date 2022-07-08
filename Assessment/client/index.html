@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+
+    <h1>Enter A Being</h1>
+    <form id="powerForm">
+      <div>
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="pl">Enter your power level: </label>
+        <input type="text" name="pl" id="pl" required>
+      </div>
+      <div>
+        <input type="submit" value="Submit!">
+      </div>
+    </form>
+
+    <h1>Increment a Being's Power Level By One</h1>
+    <form id="incForm">
+      <div>
+        <label for="nameInc">Name of Being: </label>
+        <input type="text" name="nameInc" id="nameInc" required>
+      </div>
+      <div>
+        <input type="submit" value="Submit!">
+      </div>
+    </form>
+
+    <h1>Delete a being</h1>
+    <form id="delForm">
+      <div>
+        <label for="nameDel">Name of Being: </label>
+        <input type="text" name="nameDel" id="nameDel" required>
+      </div>
+      <div>
+        <input type="submit" value="Submit!">
+      </div>
+    </form>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
